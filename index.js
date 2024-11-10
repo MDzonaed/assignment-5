@@ -179,6 +179,9 @@ blog.addEventListener('click', function(){
     const cardContainer = document.getElementById('cardContainer');
     cardContainer.classList.add('hidden')
 
+    const historyContainer = document.getElementById('historyContainer');
+    historyContainer.classList.add('hidden')
+
     const accordion = document.getElementById('accordion');
     accordion.classList.remove('hidden')
 })
